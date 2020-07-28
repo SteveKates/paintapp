@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "214680862288",
+    "firebase_url": "https://steve-fundraw.firebaseio.com",
+    "project_id": "steve-fundraw",
+    "storage_bucket": "steve-fundraw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214680862288:android:fe7ee3fb7aee5e28275b55",
+        "android_client_info": {
+          "package_name": "com.sanket.fundraw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214680862288-m607i6b187b9p8paa7p42lpuae83mlmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgmg5vCA0cwn3p8AXzORNOB0uQh95qW0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214680862288-m607i6b187b9p8paa7p42lpuae83mlmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

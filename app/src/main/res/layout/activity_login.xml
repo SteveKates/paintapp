@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#D6E6F6"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="#000"
+        app:cardElevation="15dp"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/contact1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact Number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:background="#fff"
+                android:maxLength="10"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="20dp"
+                android:textColorHint="#000"/>
+
+            <EditText
+                android:id="@+id/otp1"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="OTP"
+                android:maxLength="6"
+                android:enabled="false"
+                android:padding="10dp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:textAlignment="center"
+                android:inputType="number"
+                android:layout_marginHorizontal="20dp"
+                android:textColorHint="#000"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/login1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:background="#02F879"
+                    android:layout_marginTop="40dp"/>
+
+                <Button
+                    android:id="@+id/getotp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get OTP"
+                    android:background="#02F879"
+                    android:layout_marginTop="40dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
